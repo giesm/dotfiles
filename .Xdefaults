@@ -1,0 +1,64 @@
+urxvt*depth: 32
+urxvt*foreground: #f2f2f2
+urxvt*background: rgba:1111/1111/1111/dddd
+urxvt*transparent: true
+urxvt*shading: 20
+urxvt*fading: 20
+urxvt*termName: rxvt-256color
+
+URxvt.font:           xft:mononoki Nerd Font:style=Regular:size=12:antialias=true
+URxvt.imFont:         xft:mononoki Nerd Font:style=Italic:size=12:antialias=true
+URxvt.boldFont:       xft:mononoki Nerd Font:style=Bold:size=12:antialias=true
+URxvt.italicFont:     xft:mononoki Nerd Font:style=Italic:size=12:antialias=true
+URxvt.boldItalicFont: xft:mononoki Nerd Font:style=BoldItalic:size=12:antialias=true
+
+urxvt*scrollBar: false
+urxvt.cursorBlink: 1
+
+urxvt*perl-ext-common: default,matcher
+urxvt*urlLauncher: /usr/bin/google-chrome
+urxvt*matcher.button: 1
+urxvt*matcher.pattern.1: \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+
+
+xterm*FaceName: mononoki:style=Regular:size=12
+xterm*ScrollBar: false
+xterm*saveLines: 4096
+xterm*borderWidth: 0
+xterm*utf8: 1
+xterm*colorBDMode: true
+
+xterm*background: #1B1D1E
+xterm*foreground: #A0A0A0
+
+*.foreground:   #d1d1d1
+*.cursorColor:  #d1d1d1
+
+! black
+*.color0:       #272822
+*.color8:       #75715e
+! red
+*.color1:       #f92672
+*.color9:       #f92672
+! green
+*.color2:       #a6e22e
+*.color10:      #a6e22e
+! yellow
+*.color3:       #f4bf75
+*.color11:      #f4bf75
+! blue
+*.color4:       #66d9ef
+*.color12:      #66d9ef
+! magenta
+*.color5:       #ae81ff
+*.color13:      #ae81ff
+! cyan
+*.color6:       #a1efe4
+*.color14:      #a1efe4
+! white
+*.color7:       #f8f8f2
+*.color15:      #f9f8f5
+
+Xft.dpi: 96
+Xft.hinting: true
+Xft.hintstyle: hintslight
